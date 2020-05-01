@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27.01.2014, 20:09:59
+    Author     : Dmitry
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#startBtn {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #5cb85c;
+    border: 1px solid #4cae4c;
+    border-radius: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 6px 12px;
+}
+
+#startBtn:hover {
+    background-color: #5cb8aa;
+}
+
+#startBtn:active {
+    background-color: #5cb800;
+}
+
+#title {
+    height: 70px;
+    text-align: center;
+}
+
+#title h1 {
+    padding: 10px;
+    font-weight: bold;
+}
+
+#info, #statistic {
+    padding: 10px;
+    width: 300px;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#gameScreen {
+    background-color: #98b0a3;
+}
+
+#gameScreen,#mainScreen,#secondaryScreen,.separator {
+    height: 460px;
+}
+
+#gameScreen {
+    width: 320px;
+    -webkit-box-shadow: 3px 5px 15px 1px;
+    box-shadow: 3px 5px 15px 1px;
+    border-radius: 8px;
+}
+
+#mainScreen {
+    width: 230px;
+}
+
+#mainScreen div {
+    float: left;
+    background: url('../imgs/br_inact.png') no-repeat center;
+    border-radius: 8px;
+}
+
+#score {
+    width: 100%;
+    height: 14px;
+    background: url('../imgs/score.png') no-repeat right;
+}
+
+#hi-score {
+    width: 100%;
+    height: 15px;
+    background: url('../imgs/hi-score.png') no-repeat right;
+}
+
+#next {
+    width: 100%;
+    height: 107px;
+    background: url('../imgs/next.png') no-repeat right;
+}
+
+#level {
+    width: 100%;
+    height: 17px;
+    background: url('../imgs/level.png') no-repeat right;
+}
+
+#speed {
+    width: 100%;
+    height: 19px;
+    background: url('../imgs/speed.png') no-repeat right;
+}
+
+.text {
+    margin-top: 4px;
+    float: right;
+}
+
+.active {
+    background: url('../imgs/br_act.png') no-repeat center !important;
+}
+
+#secondaryScreen {
+    width: 86px;
+}
+
+
+
+.separator {
+    background: url('../imgs/sep.png') no-repeat center;
+    width: 4px;
+}
+
+.row {
+
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.col {
+    float: left;
+}
